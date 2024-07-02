@@ -1,4 +1,4 @@
-const GOOGLE_KEY=""
+const GOOGLE_KEY="AIzaSyDm4G3TqfGgBdEH3qn-LcInoMRxi-Zr3fU"
 
 const getCurrentLocation = () => {
     return new Promise((resolve, reject) => {
