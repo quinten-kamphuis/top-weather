@@ -77,7 +77,7 @@ const displayData = (data, city) => {
             const hoursOfDayTillWarm = hottestHour - thisHour
             const daysString = daysTillWarm > 1 ? ` ${daysTillWarm} dagen ` : daysTillWarm < 1 ? '' : ` 1 dag `
             const hoursString = hoursOfDayTillWarm > 0 ? `en ${hoursOfDayTillWarm} uur ` : ''
-            text.textContent = `Het wordt over${daysString} ${hoursString} warm in ${city}!`
+            text.textContent = hottestIndex <= thisHour ? `Het is warm in ${city}!` : `Het wordt over${daysString} ${hoursString} warm in ${city}!`
             body.classList.add('warm')
         } else {
             text.textContent = `Het wordt de komende dagen niet warm in ${city}.`
