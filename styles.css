@@ -1,0 +1,18 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: white;
+}
+.warm{
+    background-color: green;
+}
+.not-warm{
+    background-color: red;
+}
